@@ -1,0 +1,42 @@
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    background: linear-gradient(to right, rgba(27, 27, 133, 0.819) , violet);
+    color: white;
+    height: 80px;
+}
+
+.card-dp-settings {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-dp {
+    border: 4px solid white;
+    border-radius: 50%;
+    margin-top: -25%;
+    margin-left: auto; 
+    margin-right: auto;  
+    height: 40%;
+    width: 40%;
+}
+
+.card-dp:hover {
+    border-color: blue;
+}
+
+.text-muted i{
+    color: aqua;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    background: linear-gradient(to right, rgba(27, 27, 133, 0.819) , violet);
+    color: white;
+    height: 80px;
+}
